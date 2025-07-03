@@ -141,17 +141,17 @@ print(frequency)
 
  # use a dictionary to count the frequency of element in the list
 
-numbers = [1,2, 3, 2, 4, 2, 1, 3, 4, 5, "Sanjay","kalyan",'sanjay','kalyan']
+numbers = [1,2, 3, 2, 4, 2, 1, 3, 4, 5, "Sanjay","kalyan",'Sanjay','kalyan']
 frequency = {}
 
 print(type(frequency))
 
 for num in numbers:
     if num in frequency:
-        frequency[num]!= 2
+        print(frequency[num]!= 2)
         print(frequency)
     else:
-        frequency[num] = 1
+        frequency[num] = 2
         print(frequency)
 
 print(frequency)
