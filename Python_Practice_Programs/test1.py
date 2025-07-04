@@ -40,6 +40,38 @@ print(lst[-2::-3])
 print(lst[::-3])
 print(lst[-2::4])
 
+## slicing list
+numbers = [10, 20, 12, 13, 15, 9, 8, 7, 6]
+print(numbers[::3])
+print(numbers[::5])
+print(numbers[2::])
+print(numbers[::-1])
 
+print(" \n  iterating our list ")
+## iterating our list
+for number in numbers:
+    if number<6:
+        print(number)
+        
+print(" \n iterating our list with index ")
 
+ ##iterating with index
+for index,number in enumerate(numbers):
+    print(index,number)
+    
+print(" \n iterating our list with index ")   
+    
+for i in range(len(numbers)):
+    if(i < 6):
+        print(i,numbers[i])
+    else:
+        print("Excess access from index")
 
+print(" \n  iterating  our list with user input")        
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12,13]
+for index,number in enumerate(numbers,start = 0):
+    if(index < 5):
+        print(index,numbers[index])
+    else:
+        print(index,"Out of indexing range")
