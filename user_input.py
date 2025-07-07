@@ -1,29 +1,11 @@
-def person(**data):
-    print(data)
-    for k, v in data.items():
-        if k == 'lastname':
-            print(k, '    :', v)
-
-
-
-i = 1
-while i != '1':
-    fname = input('enter your first name:')
-    lname = input('enter last name:')
-    age = input('enter your age:')
-    mobileno = input('enter your mobile number:')
-    print('')
-
-    person(firstname=fname, lastname2=lname, age=age, mobile=mobileno)
-
-    i = input('enter 0 to exit or any key to continue:')
-
-
-persons = ['sanjay','kalyan','ashok','raviteja','rahul','avianash','vinay']
-lengths = [len(person) for person in persons]
-print(lengths)
-
-
-skills = ['python','java','AWS cloud','linux','C++']
-lengths = [len(skill) for skill in skills]
-print(lengths)
+set_1 = {1,2,3,4,5,6,8,9}
+set_2 ={5,6,7,8,9}
+intersec_set = set_2.intersection(set_1) # common element
+print(sorted(intersec_set))
+'''
+set_1.intersection_update(set_2) # common elemnts will update to set_1
+print(set_1)
+print(set_2)
+set_2.intersection_update(set_1)# set_1 updated to set_1
+print(set_1)
+print(set_2)'''

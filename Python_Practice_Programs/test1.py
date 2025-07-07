@@ -41,7 +41,7 @@ print(lst[::-3])
 print(lst[-2::4])
 
 ## slicing list
-numbers = [10, 20, 12, 13, 15, 9, 8, 7, 6]
+numbers = [10, 20, 12, 13, 15, 9, 8, 5, 4]
 print(numbers[::3])
 print(numbers[::5])
 print(numbers[2::])

@@ -59,7 +59,7 @@ for key, value in student_2.items():
 ## create nested dictionaries
 students_data = {
     'student_1':{'name': 'doguparthi sanjay','register num': '20bj5a0464','branch': 'ECE','year of joining':2020},
-    'student_2':{'name': 'doguparthi sanjay','register num': '20bj5a0464','branch': 'ECE','year of joining':2020}
+    'student_2':{'name': 'doguparthi kalyan kumar','register num': '14bj1a0464','branch': 'ECE','year of joining':2014}
 }
 
 print(students_data)
